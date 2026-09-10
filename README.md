@@ -4,7 +4,7 @@
 
 개발한 기능이 서버에서 동작하고, 문제가 생겼을 때 원인을 찾을 수 있도록 구현과 배포·운영을 연결해 왔습니다.
 
-[프로젝트](#프로젝트) · [사용 기술](#사용-기술) · [배경](#배경) · [이메일](mailto:hyunsik971107@gmail.com)
+[포트폴리오](https://dorian-insect-dbd.notion.site/3d7f9416d0c981e09550c74daf722192) · [프로젝트](#프로젝트) · [사용 기술](#사용-기술) · [배경](#배경) · [이메일](mailto:hyunsik971107@gmail.com)
 
 ## 사용 기술
 
@@ -42,31 +42,40 @@ Python·FastAPI로 문서 검색 API를 구현하고, Vue 화면 구현과 지�
 
 ## 프로젝트
 
-### 01. Veil
+### <img src="assets/projects/veil.png" width="28" height="28" alt="" /> 01. Veil
 익명 화상 인터뷰 서비스 · **인프라**
 
 EC2·Docker Compose·Jenkins 배포를 맡아 필수 설정 검사, 로그·메트릭 수집과 알림을 구성했습니다.
 
-팀 코드와 운영 원문은 접근 제한 자료입니다.
+[배포 전 검사와 운영 관찰](https://dorian-insect-dbd.notion.site/3d7f9416d0c981c786c9f86e8fde186b) · 팀 코드와 운영 원문은 접근 제한 자료입니다.
 
-### 02. [길벗](https://github.com/Crew-97/gilbeot)
+### <img src="assets/projects/gilbeot.png" width="28" height="28" alt="" /> 02. [길벗](https://github.com/Crew-97/gilbeot)
 화물기사 경험 공유 시제품 · **팀장 · 기획 · 구현·통합**
 
 팀 작업의 기준 문서를 작성하고, 담당 기능 구현과 PR 통합을 수행했습니다. AI 구현은 팀원 기여와 구분합니다.
 
 [서비스 화면과 역할](https://github.com/Crew-97/gilbeot#서비스-화면과-개인-기여) · [통합 사례](https://github.com/Crew-97/gilbeot/pull/13)
 
-### 03. [CSFriends](https://github.com/Crew-97/CSFriends)
+### 📘 03. [CSFriends](https://github.com/Crew-97/CSFriends)
 기술 문서 기반 RAG 챗봇 · **백엔드**
 
 기존 스켈레톤에 문서 분할·검색·답변 생성·업로드 흐름을 연결했습니다.
 
 [백엔드 코드](https://github.com/Crew-97/CSFriends/blob/main/servers/main.py) · [수행 기록](https://github.com/Crew-97/CSFriends/blob/main/REPORT.md)
 
-### 04. 클라셋
+### 04. <img src="assets/projects/classet.png" width="114" alt="클라셋" />
 투자 학습 서비스 · **인프라 · 기획 · 일부 백엔드** · 진행 중
 
 앱 DB 계정 분리, 배포 상태 기록과 복구 판단을 정리하고 있습니다. 구현된 코드와 운영 기록을 구분해 확인합니다.
+
+[배포 상태 기록과 복구 판단](https://dorian-insect-dbd.notion.site/3d7f9416d0c98165a9a1cc345504fe69)
+
+### <img src="assets/projects/ansim.svg" width="28" height="28" alt="" /> 05. 안심식탁
+알레르기 정보를 고려한 외식 정보 서비스 · **프론트엔드 · 인프라**
+
+Vue 화면 15개와 지도 연동, 비회원 이용 흐름을 구현하고 EC2·RDS·Docker Redis 배포 환경을 구성했습니다.
+
+[실제 화면과 개인 역할](https://dorian-insect-dbd.notion.site/3d7f9416d0c981dc8e8ae4c6ddd12ec0)
 
 ## 배경
 
